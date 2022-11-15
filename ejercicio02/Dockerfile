@@ -1,0 +1,1 @@
+FROM nicopaez/pingapp:3.0.0
