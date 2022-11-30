@@ -1,0 +1,12 @@
+version: '2'
+services: 
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    ports: 
+      - "80:80"
+  swagger:
+    image: nicopaez/password-api
+    container_name: swagger-psasword-api
+    ports: 
+      - "3000:3000"
