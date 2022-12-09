@@ -19,3 +19,4 @@ Una advertencia que si nos da la documentación de docker es que no se puede uti
 
 ### Volume
 
+El comando Volume permite hacer un bind-mount para poder percistir los datos de un contenedor, para que cuando se detenga o elimine el contenedor, los datos sigan estando.
